@@ -1,0 +1,32 @@
+1. 3, i is defined by var which is global scope.
+2. 150, discountedPrice is defined by var which is a global scope.
+3. 150, final is defined by var in function scope, and can be accessed anywhere inside the function.
+4. [50,100,150], discounted is a list of all value got pushed in in the for loop
+5. Nothing gonna happen cause the functin is not called. also i is defined by let which is in the scope of loop, can not be called outside of scope.
+6. error, cause discountedPrice is defined in scope of for loop by let, can not call outside of scope.
+7. 150, because finalprice is defined in function scope, which can be accessed anythere in the function.  
+8. [50,100,150], the return value discounted is defined as a list in function scope, and values are pushed into the list in the for loop.
+9. error, i is defined by let in the for loop scope, and won't be able to access outside of for loop.
+10. error, cause const can not be changed. if ignore this error, then,
+ 3, length is defined by const in the beginning of function, and never changed.
+11. error, cause const are being modified, which is not allowd. 
+12. a) student.name
+    b) student['Grad Year']
+    c) student.greeting()
+    d) student['Favorite Teacher'].name
+    e) student.courseLoad[0]
+13. A. 32
+    B. 1
+    C. 3 
+    D. 3null 
+    E. 4
+    F. 0
+    G. 3undefined
+    H. NaN
+14. A. true
+    B. false
+    C. true
+    D. false
+    E. false
+    F. true
+15. == is loose equal and === is strictly equal, which means the == operator does the type conversion of the operands before comparison, whereas the === operator compares the values as well as the data types of the operands.
