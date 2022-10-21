@@ -1,5 +1,5 @@
 1. 20
-2. 20, print( undefined)?
+2. 20
 3. 20
 4. undefined, because let defines variable inside if scope, can not be called outside of if scope.
 5. error, because you can not modify const variable.
