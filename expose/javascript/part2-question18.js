@@ -3,7 +3,7 @@ function printTime(){
     let time = d.toLocaleTimeString();
     console.log(time);
 }
-function print(timer, callBack){
+function displayTime(timer, callBack){
     let intervalID = setInterval(function (){
         callBack();
         if(--timer < 0){
@@ -12,4 +12,4 @@ function print(timer, callBack){
     }, 1000);
 }
 console.log("time will run for 5 seconds.");
-print(5, printTime);
+displayTime(5, printTime);
