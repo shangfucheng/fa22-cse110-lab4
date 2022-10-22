@@ -28,9 +28,11 @@
     D. false <br/>
     E. false <br/>
     F. true <br/>
-15. == is loose equal and === is strictly equal, which means the == operator does the type conversion of the operands before comparison, whereas the === operator compares the values as well as the data types of the operands.
-17. when call modifyArray, it will create an empty array and loop the input array that calls another function doSomething, and push the return value of doSomething into the empty array, and return the array at end which is [2,4,6]
+    
+15.. == is loose equal and === is strictly equal, which means the == operator does the type conversion of the operands before comparison, whereas the === operator compares the values as well as the data types of the operands.
 
-19. 1 4 3 2
+17.. when call modifyArray, it will create an empty array and loop the input array that calls another function doSomething, and push the return value of doSomething into the empty array, and return the array at end which is [2,4,6] <br/>
+
+19.. 1 4 3 2
 
 
